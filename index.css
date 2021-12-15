@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #8e280980;
+}
+.containers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #8e280980;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    width: 75%;
+    background: transparent;
+    border-radius: 20px;
+}
+.timecard{
+    border: 2px solid wheat;
+    border-radius: 40px;
+    width: 59%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh;
+}
+.bg-dark{
+    --bs--bg-opacity: 0.4;
+    background: transparent;
+}
+.timecard span{
+    text-align: center;
+    font-size: 1.65rem;
+    font-weight: 700;
+    font-family: monospace;
+    background: transparent;
+}
+.timecard h3{
+    font-family: fantasy;
+    background: transparent;
+}
+.blockquote p{
+    background-color: #8e280980;
+}
